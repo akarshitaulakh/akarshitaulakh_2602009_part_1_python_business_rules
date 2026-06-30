@@ -1,0 +1,187 @@
+1. Feature 1:
+
+========================================
+MAIN MENU
+========================================
+1: Customer Profile and Financial Summary
+2: Product Billing Calculator
+3: Loan Eligibility Decision
+4: Campaign Eligibility
+5: Exit
+Enter your choice: 1
+
+========================================
+Selected: Customer Profile and Financial Summary
+========================================
+Enter the customer name: AA
+Enter the age of the customer: 28
+Enter the city of the customer: Delhi
+Enter the monthly income of the customer: 100000
+Enter the monthly expenses of the customer: 30000
+Enter the existing EMI amount: 20000
+Enter the credit score of the customer: 775
+Enter the segment of the customer (Standard / Premium / Enterprise): Standard
+
+------------------------------------------
+CUSTOMER PROFILE
+------------------------------------------
+Customer name: Aa
+Age: 28.0
+City: Delhi
+Monthly income: 100000.00
+Monthly expenses: 30000.00
+Existing EMI amount: 20000.00
+Credit score: 775.0
+Customer segment: Standard
+
+------------------------------------------
+FINANCIAL SUMMARY
+------------------------------------------
+Monthly savings: 50000.00
+Savings percentage: 50.00
+EMI-to-income ratio: 0.20
+Risk category: LOW Risk
+Customer value category: High Value
+------------------------------------------
+
+
+2. Feature 2:
+
+========================================
+MAIN MENU
+========================================
+1: Customer Profile and Financial Summary
+2: Product Billing Calculator
+3: Loan Eligibility Decision
+4: Campaign Eligibility
+5: Exit
+Enter your choice: 2
+
+========================================
+Selected: Product Billing Calculator
+========================================
+Enter the product name: Laptop
+Enter the product category: Electronics
+Enter the quantity of the products: 1
+Enter the unit price of the product: 100000
+Enter the discount percentage: 10
+Enter the GST percentage: 18
+Enter the delivery charge: 0
+
+------------------------------------------
+PRODUCT DETAILS
+------------------------------------------
+Product name: Laptop
+Product category: Electronics
+Quantity: 1
+Unit price: 100000.00
+Discount percentage: 10.00
+GST percentage: 18.00
+Entered delivery charge: 0.00
+
+------------------------------------------
+BILLING SUMMARY
+------------------------------------------
+Gross amount: 100000.00
+Discount amount: 10000.00
+Amount after discount: 90000.00
+GST amount: 16200.00
+Delivery rule: Delivery charge waived
+Delivery charge applied: 0.00
+Final payable amount: 106200.00
+------------------------------------------
+
+
+
+3. Feature 3:
+
+========================================
+MAIN MENU
+========================================
+1: Customer Profile and Financial Summary
+2: Product Billing Calculator
+3: Loan Eligibility Decision
+4: Campaign Eligibility
+5: Exit
+Enter your choice: 3
+
+========================================
+Selected: Loan Eligibility Decision
+========================================
+Enter the age of the customer: 30
+Enter the monthly income of the customer: 100000
+Enter the monthly expenses of the customer: 30000
+Enter the existing EMI amount: 10000
+Enter the amount of loan requested by the customer: 500000
+Enter the credit score of the customer: 750
+
+------------------------------------------
+LOAN ELIGIBILITY SUMMARY
+------------------------------------------
+Age: 30.0
+Monthly income: 100000.00
+Monthly expenses: 30000.00
+Existing EMI amount: 10000.00
+Requested loan amount: 500000.00
+Credit score: 750.0
+Monthly savings: 60000.00
+Savings percentage: 60.00
+EMI-to-income ratio: 0.10
+
+Decision: Approved
+Reason: Customer has a strong credit score, good savings, and manageable EMI level.
+------------------------------------------
+
+
+
+4. Feature 4:
+
+========================================
+MAIN MENU
+========================================
+1: Customer Profile and Financial Summary
+2: Product Billing Calculator
+3: Loan Eligibility Decision
+4: Campaign Eligibility
+5: Exit
+Enter your choice: 4
+
+========================================
+Selected: Campaign Eligibility
+========================================
+Enter the city of the customer: Delhi
+Enter the monthly income of the customer: 100000
+Enter the monthly expenses of the customer: 30000
+Enter the existing EMI amount: 20000
+Enter the segment of the customer (Standard / Premium / Enterprise): Premium
+
+------------------------------------------
+CAMPAIGN ELIGIBILITY SUMMARY
+------------------------------------------
+City: Delhi
+Monthly income: 100000.00
+Monthly expenses: 30000.00
+Existing EMI amount: 20000.00
+Customer segment: Premium
+Monthly savings: 50000.00
+Savings percentage: 50.00
+Customer value category: High Value
+
+Campaign group: Premium Upsell Campaign
+Reason: Premium customer has good savings and lives in a target campaign city.
+------------------------------------------
+
+
+
+5. Exit:
+
+========================================
+MAIN MENU
+========================================
+1: Customer Profile and Financial Summary
+2: Product Billing Calculator
+3: Loan Eligibility Decision
+4: Campaign Eligibility
+5: Exit
+Enter your choice: 5
+Exiting...

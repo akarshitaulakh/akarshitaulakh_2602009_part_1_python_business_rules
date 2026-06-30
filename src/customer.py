@@ -1,0 +1,40 @@
+from src.utils import __format_number__, __get_valid_text__, __get_valid_number__, __get_valid_segment__, __risk_category__, __customer_value_category__, __emi_to_income_ratio__, __savings_percent__, __monthly_savings__
+
+def calculate_customer_profile_and_financial_summary():
+    customer_name = __get_valid_text__("Enter the customer name: ")
+    age = __get_valid_number__("Enter the age of the customer: ", 15, 110)
+    city = __get_valid_text__("Enter the city of the customer: ")
+    monthly_income = __get_valid_number__("Enter the monthly income of the customer: ", 1)
+    monthly_expenses = __get_valid_number__("Enter the monthly expenses of the customer: ", 0)
+    existing_emi_amount = __get_valid_number__("Enter the existing EMI amount: ", 0)
+    credit_score = __get_valid_number__("Enter the credit score of the customer: ", 300, 900)
+    customer_segment = __get_valid_segment__()
+
+    monthly_savings = __monthly_savings__(monthly_income, monthly_expenses, existing_emi_amount)
+    savings_percentage = __savings_percent__(monthly_income, monthly_expenses, existing_emi_amount)
+    emi_to_income_ratio = __emi_to_income_ratio__(existing_emi_amount, monthly_income)
+
+    risk_category = __risk_category__(credit_score, savings_percentage, emi_to_income_ratio)
+    customer_value_category = __customer_value_category__(monthly_income, customer_segment)
+
+    print("\n------------------------------------------")
+    print("CUSTOMER PROFILE")
+    print("------------------------------------------")
+    print("Customer name:", customer_name.title())
+    print("Age:", age)
+    print("City:", city.title())
+    print("Monthly income:", __format_number__(monthly_income))
+    print("Monthly expenses:", __format_number__(monthly_expenses))
+    print("Existing EMI amount:", __format_number__(existing_emi_amount))
+    print("Credit score:", credit_score)
+    print("Customer segment:", customer_segment.title())
+
+    print("\n------------------------------------------")
+    print("FINANCIAL SUMMARY")
+    print("------------------------------------------")
+    print("Monthly savings:", __format_number__(monthly_savings))
+    print("Savings percentage:", __format_number__(savings_percentage))
+    print("EMI-to-income ratio:", __format_number__(emi_to_income_ratio))
+    print("Risk category:", risk_category)
+    print("Customer value category:", customer_value_category)
+    print("------------------------------------------")
