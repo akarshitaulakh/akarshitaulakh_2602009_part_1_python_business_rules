@@ -1,0 +1,4 @@
+*.pyc
+.DS_Store
+outputs/.DS_Store
+outputs/screenshots/.DS_Store
